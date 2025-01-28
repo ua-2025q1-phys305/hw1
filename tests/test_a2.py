@@ -66,8 +66,11 @@ def test_negative():
         C = multibit_negative(A)
         c = list2int(C)
 
-        print(C, "->", c)
-        assert c == -a
+        # Debugging output
+        print(f"Input: {A} (LSB first), Negated: {C} -> {c}")
+
+        # Assert the result matches the expected value
+        assert c == -a, f"Failed for input {a}"
 
 def test_subtractor():
     """Test the multibit_subtractor() function by verifying that it correctly
@@ -85,5 +88,8 @@ def test_subtractor():
             C = multibit_subtractor(A, B)
             c = list2int(C)
 
-            print(C, "->", c)
-            assert c == a - b
+            # Debugging output
+            print(f"Input: {A} - {B} (LSB first), Result: {C} -> {c}")
+
+            # Assert the result matches the expected value
+            assert c == a - b, f"Failed for inputs {a} - {b}"
