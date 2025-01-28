@@ -35,7 +35,17 @@ maximize your score.
 
 ## Assignments
 
-### **Assignment 1**: Integer Negation and Subtraction Using NAND Gates (2 points)
+### **Assignment 1**: Setup Python Package (2 points)
+
+* **Objective**:
+  Learn how to set up and organize a pip-installable python package.
+* **Details**:
+  * Following the guest lecture, add multiple metadata files including
+    "pyproject.toml" and "LICENSE" to this package and turn it into a
+    pip-installable python package.
+  * Properly organize source code, tests, and documentations.
+
+### **Assignment 2**: Integer Negation and Subtraction Using NAND Gates (2 points)
 
 * **Objective**:
   Implement a function that performs integer negation using only NAND
@@ -44,9 +54,9 @@ maximize your score.
   * You are tasked with simulating the behavior of NAND gates to
     achieve these operations at the logical level.
   * The description of the assignment and the solution template can be
-    found in `phys305_hw1/a1.py`.
+    found in `phys305_hw1/a2.py`.
 
-### **Assignment 2**: Rewriting the Coupled Harmonic Oscillator (2 points)
+### **Assignment 3**: Rewriting the Coupled Harmonic Oscillator (2 points)
 
 * **Objective**:
   Take the coupled harmonic oscillator problem we solved in the lab
@@ -57,9 +67,9 @@ maximize your score.
   * Ensure your class includes methods to compute and visualize the
     system's dynamics.
   * The description of the assignment and the solution template can be
-    found in `phys305_hw1/a2.py`.
+    found in `phys305_hw1/a3.py`.
 
-### **Assignment 3**: Solving the Heat Equation and Visualizing Results (2 points)
+### **Assignment 4**: Solving the Heat Equation and Visualizing Results (2 points)
 
 * **Objective**:
   Solve the 1D heat equation semi-analytically and create a
@@ -70,21 +80,6 @@ maximize your score.
   * Given an arbitrary initial temperature profile, your solver should
     return a semi-analytical solution of the temperature at arbitrary
     time.
-  * The description of the assignment and the solution template are
-    available in `phys305_hw1/a3.py`.
-
-### **Assignment 4**: Image Filtering Using High-Pass or Low-Pass Filters (2 points)
-
-* **Objective**:
-  Develop a Python program to filter images by applying high-pass or
-  low-pass filters.
-* **Details**:
-  * The program should read jpeg and/or png images, apply the
-    appropriate filters, and save the output.
-  * You need to implement a Fourier-based filter.
-    Calling image library functions for filtering is not allowed.
-    Calling image library functions to read and write images are
-    allowed.
   * The description of the assignment and the solution template are
     available in `phys305_hw1/a4.py`.
 
