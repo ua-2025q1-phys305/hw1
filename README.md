@@ -3,6 +3,8 @@
 Welcome to the repository for **Homework Set #1** in PHYS305.
 This homework set is worth **10 points** and is designed to test your
 understanding of topics that we covered in the first five classes.
+The submission cutoff time is at **Thursday Feb 6th, 11:59pm** Arizona
+time.
 
 
 ## Structure and Grading
@@ -119,9 +121,11 @@ maximize your score.
 
 **Note**:
 **The submission deadline is a strict cutoff.
-No points will be awarded for submissions made after the deadline.**
+No submission will be accepted after the deadline.**g
 Be sure to manage your time effectively and plan ahead to ensure your
 work is submitted on time.
+Frequent and incremental `git commit` and `git push` are recommended
+to ensure your latest work are seen.
 
 
 ## Additional Notes
@@ -135,6 +139,6 @@ work is submitted on time.
   hours.
 * **Deadlines**:
   Be mindful of the submission deadline, as late submissions will not
-  receive any points.
+  be accepted.
 
 Good luck, and enjoy working on the assignments!
