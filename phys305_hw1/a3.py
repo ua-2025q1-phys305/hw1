@@ -28,42 +28,49 @@
 import numpy as np
 
 import matplotlib
-matplotlib.use('Agg')
-
+matplotlib.use('Agg')  # Use non-interactive backend for plotting
 import matplotlib.pyplot as plt
 
+
 class CoupledOscillators:
-    """
-    A class to model and simulate a system of coupled harmonic oscillators.
+    """A class to model and simulate a system of coupled harmonic
+    oscillators.
 
     Attributes:
         Omega (np.ndarray): Array of angular frequencies of the normal modes.
         V (np.ndarray): Matrix of eigenvectors representing normal modes.
         M0 (np.ndarray): Initial amplitudes of the normal modes.
+
     """
 
     def __init__(self, X0=[-0.5, 0, 0.5], m=1.0, k=1.0):
-        """
-        Initialize the coupled harmonic oscillator system.
+        """Initialize the coupled harmonic oscillator system.
 
         Args:
             X0 (list or np.ndarray): Initial displacements of the oscillators.
             m (float): Mass of each oscillator (assumed identical).
             k (float): Spring constant (assumed identical for all springs).
+
         """
-        # TODO: initialize the class
+        # TODO: Construct the stiffness matrix K
+
+        # TODO: Solve the eigenvalue problem for K to find normal modes
+
+        # TODO: Store angular frequencies and eigenvectors
+
+        # TODO: Compute initial modal amplitudes M0 (normal mode decomposition)
 
     def __call__(self, t):
-        """
-        Calculate the displacements of the oscillators at time t.
+        """Calculate the displacements of the oscillators at time t.
 
         Args:
             t (float): Time at which to compute the displacements.
 
         Returns:
             np.ndarray: Displacements of the oscillators at time t.
+
         """
-        # TODO: reconstruct the displacements from normal modes
+        # TODO: Reconstruct the displacements from normal modes
 
 
 if __name__ == "__main__":
@@ -77,5 +84,6 @@ if __name__ == "__main__":
     print("Time(s)  Displacements")
     print("----------------------")
     for t in T:
-        X = co(t)
-        print(f"{t:.2f}", X)
+        X = co(t)  # Compute displacements at time t
+
+        print(f"{t:.2f}", X)  # Print values for reference

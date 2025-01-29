@@ -66,8 +66,8 @@ maximize your score.
 * **Details**:
   * Your implementation should encapsulate the behavior and parameters
     of the system in an object*oriented design.
-  * Ensure your class includes methods to compute and visualize the
-    system's dynamics.
+  * Ensure your class includes methods to compute the system's
+    dynamics.
   * The description of the assignment and the solution template can be
     found in `phys305_hw1/a3.py`.
 

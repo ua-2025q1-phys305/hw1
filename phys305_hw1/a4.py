@@ -99,8 +99,8 @@ if __name__ == "__main__":
     hs = HeatSolver(U0, L=X[-1] - X[0], alpha=0.1)
 
     # Print temperature profile at each time step and save plots
-    print("Time (s)  Temperature Profile")
-    print("-----------------------------")
+    print("Time(s)  Temperature Profile")
+    print("----------------------------")
 
     for i, t in enumerate(T):
         U = hs(t)  # Compute temperature profile at time t
